@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Discard Hub #Remake</title>
+  <script>
+    const parts = window.location.pathname.split('/').filter(p => p);
+    const placeId = parts[0];
+    const jobId = parts[1];
+
+    if (placeId && jobId) {
+      const robloxLink = `roblox://placeId=${placeId}&gameInstanceId=${jobId}`;
+      window.location.href = robloxLink;
+    } else {
+      document.write("Invalid link.");
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting to Roblox...</p>
+</body>
+</html>
