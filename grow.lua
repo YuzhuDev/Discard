@@ -1,1 +1,1 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/YuzhuDev/Discard/main/gag.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/YuzhuDev/XY/main/gag.lua'))()
